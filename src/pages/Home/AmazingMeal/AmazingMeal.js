@@ -34,6 +34,11 @@ const AmazingMeal = () => {
     autoplaySpeed: 5000,
   };
 
+  const handleItemClick = (itemId) => {
+    const updatedItems = items.filter((item) => item.id !== itemId);
+    setItems([...updatedItems]);
+  };
+
   return (
     <div className="section">
       <div className="container">
@@ -42,7 +47,7 @@ const AmazingMeal = () => {
             <div>
               <Slider {...settings}>
                 {items.map((item) => (
-                  <div key={item.id}>
+                  <div key={item.id} onClick={() => handleItemClick(item.id)}>
                     <img src={item.url} alt="caurosal pic" />
                   </div>
                 ))}

@@ -1,7 +1,5 @@
 import React from 'react'
 
-import SticksWords from "./src/../../../../assets/SticksWhite.png";
-
 import './Hero.css'
 
 const Hero = () => {
