@@ -1,0 +1,10 @@
+.drink-selection h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.drink-selection img {
+    width: 85%;
+    height: auto;
+    border-radius: 5px;
+}

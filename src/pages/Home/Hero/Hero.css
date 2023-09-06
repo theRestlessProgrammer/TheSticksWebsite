@@ -1,0 +1,28 @@
+.hero-img {
+    height: 100vh;
+    width: 100%;   /* This makes sure the width is also full viewport */
+    background-image: url('../../../assets/SticksBarBack.jpg');
+    background-repeat: no-repeat;
+    background-position: center;  /* This centers the image */
+    background-size: cover;       /* This will make sure your image covers the whole div without stretching */
+    position: relative;
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 40%;
+}
+
+.hero-content p {
+    font-size: 22px;
+    padding-top: 10px;
+}
+.sticks-image::before {
+    content: url('/src/assets/SticksWhite.png');
+    vertical-align: middle; /* Adjusts the image to be aligned with the text */
+    display: inline-block;
+    margin-left: 5px;  /* Optional spacing on the left */
+    margin-right: 5px; /* Optional spacing on the right */
+    height: 20px;
+}
