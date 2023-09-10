@@ -35,8 +35,7 @@ const Footer = () => {
               style={{ color: 'white' }}> 
               Our Facebook 
             </Link>
-
-this link isnt actually going to the page when clicked on how do i fix it?
+          
             </p>
           </div>
 
