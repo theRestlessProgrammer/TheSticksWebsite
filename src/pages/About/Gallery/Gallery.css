@@ -25,8 +25,8 @@
   flex-wrap: wrap;
   max-width: 100%;
   overflow: hidden;
-  justify-content: center; /* Add this line */
-  align-items: center; /* Add this line */
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-image {
@@ -34,7 +34,7 @@
   max-height: 300px;
   object-fit: cover;
   cursor: pointer;
-  margin: auto; /* Add this line */
+  margin: auto;
 }
 
 .selected-image {
@@ -44,5 +44,5 @@
   max-width: 70%;
   max-height: 400px;
   margin-top: 20px;
-  margin: auto; /* Add this line */
+  margin: auto;
 }
