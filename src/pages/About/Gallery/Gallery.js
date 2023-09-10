@@ -21,12 +21,12 @@ const Gallery = () => {
     <div className="gallery-container">
       {imageUrls.map((imageUrl, index) => (
         <div key={index} onClick={() => setSelectedImageIndex(index)}>
-          <img src={imageUrl} alt={`Gallery Image ${index + 1}`} className="gallery-image" />
+        <img src={imageUrl} alt={`Gallery ${index + 1}`} className="gallery-image" />
         </div>
       ))}
       {selectedImageIndex !== -1 && (
         <div>
-          <img src={imageUrls[selectedImageIndex]} alt={`Selected Image ${selectedImageIndex + 1}`} className="selected-image" />
+        <img src={imageUrls[selectedImageIndex]} alt={`Selected ${selectedImageIndex + 1}`} className="selected-image" />
         </div>
       )}
     </div>
