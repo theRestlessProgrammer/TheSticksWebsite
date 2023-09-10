@@ -22,7 +22,7 @@ const Footer = () => {
                 Madison, MN, 56256</p>
                   <p>(320) 698-7498</p>
             <Link to="#" className="text-white">
-            thesticks.madison@email.com
+            thesticks.madison@gmail.com
             </Link>
             </p>
           </div>
@@ -30,11 +30,13 @@ const Footer = () => {
           <div className="footer-grid-item">
             <h3>Our Social Media</h3>
             <p>
-                <Link 
-                  to="https://www.facebook.com/people/The-Sticks-Bar-and-Grill/100086171793425/" 
-                  style={{ color: 'white' }}> 
-                  Our Facebook 
-                </Link>
+            <Link 
+              to="https://www.facebook.com/people/The-Sticks-Bar-and-Grill/100086171793425/" 
+              style={{ color: 'white' }}> 
+              Our Facebook 
+            </Link>
+
+this link isnt actually going to the page when clicked on how do i fix it?
             </p>
           </div>
 
